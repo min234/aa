@@ -1,5 +1,5 @@
 export enum UrlInternal {
   HOME = "/",
-  MYPAGE = "/",
+  MYPAGE = "/*",
   LOGIN = "/login",
 }

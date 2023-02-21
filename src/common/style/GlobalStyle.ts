@@ -175,7 +175,19 @@ const GlobalStyles = createGlobalStyle`
   ::-webkit-scrollbar {
     display: none;
   }
-  /* overflow-x: hidden;
+  
+  
+ outline : none;
+  scrollbar-width: none;
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  body{
+    overflow-x: hidden;
+  }
+  overflow-x: scroll; 
+
+  
   overflow-y: auto;
   &::-webkit-scrollbar {
     -webkit-appearance: none;
@@ -191,9 +203,8 @@ const GlobalStyles = createGlobalStyle`
   &::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(180, 185, 171, 0.3);
     background-color: #b4b9ab;
-  } */
-  outline : none;
-
+  } 
+  outline : none;/
   /* .slick-slider {
     .slick-arrow {
       &.slick-prev{

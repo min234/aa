@@ -21,12 +21,16 @@ import { PublicRoute } from "router"; //PrivateRoute,
 /** Utils */
 import ScrollToTop from "utils/ScrollToTop";
 
+
 /** Page */
-const Mypage = lazy(() => import("pages/Mypage"));
+const Mypage = lazy(()  => import("pages/Mypage"));
 
 // console.log("getDataById", a);
+ 
 
 const App: React.FC = () => {
+ 
+  
   return (
     <ThemeProvider theme={defaultTheme}>
       <Normalize />
